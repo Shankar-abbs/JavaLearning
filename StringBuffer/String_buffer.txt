@@ -1,0 +1,2 @@
+String buffer is came into picture because there are some problems with Strings
+like Strings are immutable and 
