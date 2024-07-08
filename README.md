@@ -54,7 +54,7 @@ Test programs and examples.
 1. Clone the repository:
   
    ```sh
-   git clone https://github.com/yourusername/Codinghub_java.git
+   git clone https://github.com/Shankar-abbs/JavaLearning.git
 
 2. Navigate to the project directory and compile the Java files:
 cd Codinghub_java
