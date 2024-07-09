@@ -1,2 +1,3 @@
-String buffer is came into picture because there are some problems with Strings
-like Strings are immutable and 
+String buffer  came into picture because there are some problems with Strings
+like Strings are immutable and many more disadvantages of strings
+like that to remove the disadvantages of strings string Buffer and String Builder came
