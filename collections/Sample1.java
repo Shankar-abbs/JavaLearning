@@ -6,9 +6,10 @@ import java.util.Stack;
 
 public class Sample1 
 {
+	@SuppressWarnings({ "rawtypes", "unused" })
 	public static void main(String[] args) 
 	{
-		Stack l = new Stack();
+		Stack<Comparable> l = new Stack<Comparable>();
 		l.add("Shankar");
 		l.add("vinay");
 		l.add(18);
@@ -20,13 +21,13 @@ public class Sample1
 //		System.out.println(l);
 		l.push(18);
 		l.push(1.8);
-//		System.out.println(l);
-		ArrayList al = new ArrayList();
+
+		ArrayList<Stack<Comparable>> al = new ArrayList<Stack<Comparable>>();
 		al.add(l);
-//		System.out.println(al);
-		HashSet hs = new HashSet();
+
+		HashSet<Stack<Comparable>> hs = new HashSet<Stack<Comparable>>();
 		hs.add(l);
-		List ll = new ArrayList();
+		List<?> ll = new ArrayList<Object>();
 		for(int i=0;i<l.size();i++)
 		{
 //			System.out.println(l.get(i));

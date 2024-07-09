@@ -23,6 +23,7 @@ public class SimpleThrowsExample
 	}
 }
 
+@SuppressWarnings("serial")
 class InsufficentBalance extends RuntimeException
 {
 	InsufficentBalance(String msg)
