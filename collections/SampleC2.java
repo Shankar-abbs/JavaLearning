@@ -9,11 +9,13 @@ public class SampleC2 {
 		Set <Integer>set = new TreeSet<Integer>();	
 		for(int t:a)
 		{
+			al.add(t);
 			set.add(t);
-		}	
+		}
+		System.out.println("a Array in Treeset");
 		System.out.println(set);
+		System.out.println("a Array in ArrayList And Sorted Using Collection Sort");
 		Collections.sort(al);
-		System.out.println("Using ArrayList Sort");
 		System.out.println(al);
 	}
 }

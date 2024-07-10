@@ -32,5 +32,10 @@ class Student
 		this.roll=roll;
 		this.name=name;
 	}
+	@Override
+	public String toString() {
+	
+		return roll+" "+name;
+	}
 	
 }
