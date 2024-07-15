@@ -1,4 +1,7 @@
 package com.basicprograms.Strings;
+
+import java.util.Arrays;
+
 public class Anagram 
 {
 	public static void main(String[] args) 
@@ -12,30 +15,21 @@ public class Anagram
 }
 class Anagram1
 {
-	String checkAg(String s1, String s2)
+	String checkAg(String str1, String str2)
 	{
-		s1 = s1.toLowerCase();
-		s2 = s2.toLowerCase();
+		String s1 = str1.toLowerCase();
+		String s2 = str2.toLowerCase();
 		if(s1.length()!=s2.length())
-			return s1+" and "+s2+" are not Anagrams";
-		else
-		{
-			int count=0;
-			for(int x=0;x<s1.length();x++)
-			{
-				for(int y=0;y<s2.length();y++)
-				{
-					if(s1.charAt(x)==s2.charAt(y))
-					{
-						count++;
-						break;
-					}
-				}
-			}
-			if(count==s1.length())
-				return s1+" and "+s2+" are Anagrams"; 
+			return str1+" and "+str2+" are not Anagrams";
+		else{
+			char[] a = s1.toCharArray();
+			char[] b = s2.toCharArray();
+			Arrays.sort(a);
+			Arrays.sort(b);
+			if(Arrays.compare(a,b)==0)
+				return "Anagrams";
 			else
-				return s1+" and "+s2+" are not Anagrams";
+				return "Not Anagrams";
 		}
 	}
 }

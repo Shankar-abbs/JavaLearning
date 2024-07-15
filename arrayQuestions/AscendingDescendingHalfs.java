@@ -7,7 +7,7 @@ public class AscendingDescendingHalfs
     public static void main(String[] args) 
     {
         // Initialize an array with integer values
-        int n[] = {12, 56, 34, 23, 76, 32, 75, 90, 345};
+        int n[] = {12, 56, 34, 23, 76, 32, 75, 90, 345,13};
         
         // Create an instance of IntSort class to access sorting methods
         IntSort is = new IntSort();
@@ -26,7 +26,7 @@ public class AscendingDescendingHalfs
         {
             System.out.print(t + " ");
         }
-        
+       
         // Sort and print the second half of the array in descending order
         System.out.println("\nSecond half sorted in descending order:");
         for (int t : is.descending(n, n.length / 2, n.length)) 
