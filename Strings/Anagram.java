@@ -6,7 +6,7 @@ public class Anagram
 {
 	public static void main(String[] args) 
 	{
-		String s1 = "adecimalpoint";
+		String s1 = "adecimalpointa";
 		String s2 = "imadotinplace";
 		
 		Anagram1 ag = new Anagram1();
@@ -27,9 +27,9 @@ class Anagram1
 			Arrays.sort(a);
 			Arrays.sort(b);
 			if(Arrays.compare(a,b)==0)
-				return "Anagrams";
+				return s1+" "+s2+"\nare Anagrams";
 			else
-				return "Not Anagrams";
+				return s1+" "+s2+"\nNot Anagrams";
 		}
 	}
 }

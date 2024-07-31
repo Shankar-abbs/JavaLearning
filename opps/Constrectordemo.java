@@ -10,16 +10,7 @@ public class Constrectordemo
 }
 class Demo
 {
-	int dollar=1;
-	
-	Demo(int dollar)
-	{
-		this.dollar=dollar;
-	}
-	public Demo() 
-	{
-
-	}
+	int dollar=18;
 	void India()
 	{
 		System.out.println("in India "+(dollar*80)+" Rupees");

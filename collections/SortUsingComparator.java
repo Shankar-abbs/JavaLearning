@@ -22,7 +22,7 @@ public class SortUsingComparator {
 		System.out.println("Sorted Student Objects Using Roll");
 		Collections.sort(al, new SortByRoll());
 		System.out.println(al);
-		
+
 	}
 }
 class Student1{
