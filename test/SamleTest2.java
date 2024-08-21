@@ -22,6 +22,7 @@ public class SamleTest2
 			System.out.print(t+" ");
 		}
 	}
+
 }
 
 

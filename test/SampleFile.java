@@ -4,26 +4,24 @@ public class SampleFile
 {
 	public static void main(String[] args)
 	{
-		SampleFile2 c = new SampleFile2();
-		c.kall();
-	}
-	public int x = 18;
-	public void dooplicate()
-	{
-		System.out.println("Private method");
-	}
-}
-class SampleFile2 extends SampleFile
-{
-	
-	void Cal() 
-	{
-		dooplicate();
-		System.out.println(x);
-	}
-	protected void kall()
-	{
-		System.out.println("private void in SampleFile2");
+		int a[]= {1,2,3,9,4,5,6,9,7,8,1,9};
+		boolean b[] = new boolean[a.length];
+		for(int i=0;i<a.length-1;i++) {
+			if(b[i]) {
+				break;
+			}
+			int fre=1;
+			for(int j=i+1;j<a.length;j++) {
+				if(a[i]==a[j]) {
+					b[j]=true;
+					fre++;
+				}
+			}
+			if(fre>1) 
+				System.out.println(a[i]+" occured "+fre+" times");
+			else if(fre==1)
+				System.out.println(a[i]);
+		}
 	}
 }
 
