@@ -1,5 +1,7 @@
 package com.basicprograms.arrays;
-public class RightShift 
-{
 
+
+public class SampleTest10 {
+
+	
 }
